@@ -1,0 +1,43 @@
+.typeIndicatorContainer {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.type123 {
+  width: 300px;
+}
+
+.buttonType {
+  width: 40px;
+}
+.buttonType:hover {
+  cursor: pointer;
+}
+
+.typeName {
+  font-size: 1.2rem;
+  color: #777777;
+  padding: 0px 9px;
+}
+.typeName:hover {
+  cursor: pointer;
+}
+.typeNameSelected {
+  font-size: 1.3rem;
+  color: #000000;
+  font-weight: 600;
+  padding: 0px 9px;
+}
+
+@media screen and (max-width: 600px) {
+  .type123 {
+    width: 270px;
+  }
+  .typeName {
+    padding: 0px 3px;
+  }
+  .typeNameSelected {
+    padding: 0px 5px;
+  }
+}

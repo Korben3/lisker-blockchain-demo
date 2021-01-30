@@ -1,0 +1,7 @@
+.balance {
+  margin: 10px;
+}
+.userTable {
+  display: flex;
+  align-items: center;
+}

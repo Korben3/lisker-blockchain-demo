@@ -1,0 +1,56 @@
+table {
+  width: 99%;
+  margin: 20px auto;
+}
+table,
+th,
+td {
+  border: none;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 5px;
+  text-align: left;
+}
+table tr:nth-child(even) {
+  background-color: #ebebeb;
+}
+table tr:nth-child(odd) {
+  background-color: #fbfbfb;
+}
+table th {
+  background-color: #4d939c;
+  color: white;
+}
+
+.amountField {
+  width: 10%;
+}
+
+.addressField {
+  width: 40%;
+}
+
+.userTableWallet {
+  text-align: center;
+}
+
+.dummyNote {
+  text-align: right;
+  font-style: italic;
+  font-size: 0.8rem;
+}
+@media screen and (max-width: 760px) {
+  .amountField {
+    width: 20%;
+  }
+  .addressField {
+    width: 60%;
+  }
+  .txAddress {
+    width: 200px;
+    display: flex;
+    overflow-x: scroll;
+  }
+}

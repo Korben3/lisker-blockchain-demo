@@ -1,0 +1,8 @@
+.aboutText {
+  overflow-wrap: anywhere;
+}
+.credit {
+  text-align: right;
+  padding: 10px;
+  font-size: 0.8rem;
+}

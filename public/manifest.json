@@ -1,0 +1,8 @@
+{
+  "short_name": "Lisker Blockchain Demo",
+  "name": "Demonstration of how to use the Lisker module in a blockhain project",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

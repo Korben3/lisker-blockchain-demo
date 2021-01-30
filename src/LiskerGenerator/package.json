@@ -1,0 +1,11 @@
+{
+  "name": "react-lisker-avatar-generator",
+  "description": "React component to create a Lisker avatar.",
+  "version": "1.0.0",
+  "author": "Korben3 (info@korben3.com), Xding78",
+  "keywords": "avatar,lisk,blockchain,customize",
+  "homepage": "http://lisker.io",
+  "repository": "https://github.com/Korben3/react-lisker-avatar-generator",
+  "license": "MIT",
+  "main": "index.js"
+}

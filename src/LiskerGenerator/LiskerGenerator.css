@@ -1,0 +1,20 @@
+.dividerFade {
+  margin: 15px auto;
+  width: 50%;
+  height: 2px;
+  background: #dddddd;
+  background: -webkit-gradient(
+    linear,
+    0 0,
+    100% 0,
+    from(white),
+    to(white),
+    color-stop(50%, #dddddd)
+  );
+}
+
+@media screen and (max-width: 600px) {
+  .dividerFade {
+    width: 90%;
+  }
+}

@@ -1,0 +1,30 @@
+.lisker {
+  width: 400px;
+  height: 400px;
+}
+
+.buttonsArrow {
+  padding: 10px;
+  width: 60px;
+}
+.buttonsArrow:hover {
+  cursor: pointer;
+}
+
+.tinyFont {
+  font-size: 0.8rem;
+  color: #aaaaaa;
+}
+
+@media screen and (max-width: 600px) {
+  .lisker {
+    width: 200px;
+    height: 200px;
+  }
+}
+.containerLisker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}

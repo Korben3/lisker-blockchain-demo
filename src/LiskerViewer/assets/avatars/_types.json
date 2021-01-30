@@ -1,0 +1,57 @@
+{
+  "interfaceTypes": [
+    "Face",
+    "Hair",
+    "Eyebrows",
+    "Eyes",
+    "Nose",
+    "Mouth",
+    "Facial hair",
+    "Clothes",
+    "Icon",
+    "Glasses",
+    "Hat",
+    "Background"
+  ],
+  "interfaceTypesRelations": [
+    "heads",
+    "hairFront",
+    "eyebrows",
+    "eyes",
+    "noses",
+    "mouths",
+    "facialHair",
+    "clothes",
+    "clothesIcon",
+    "glasses",
+    "hats",
+    ""
+  ],
+  "allTypes": [
+    "hairBack",
+    "heads",
+    "headsShade",
+    "clothes",
+    "clothesShade",
+    "clothesIcon",
+    "mouths",
+    "noses",
+    "eyes",
+    "eyebrows",
+    "facialHair",
+    "hairFront",
+    "hats",
+    "glasses"
+  ],
+  "customColorTypes": [
+    "Face",
+    "Hair",
+    "Eyebrows",
+    "chins",
+    "Facial hair",
+    "Hat",
+    "Clothes",
+    "Icon",
+    "Background"
+  ]
+}
