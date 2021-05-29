@@ -53,7 +53,9 @@ const Colors = ({ changeColor, typeSelected }) => {
     <div className="containerColor">
       <div className={` ${showColorSwatches ? "" : "colorToggle"}`}>
         <div className="colorInfo">{colorType} Color</div>
-        <div className="colorSwatches">{colorSwatches}</div>
+        <div className="colorSwatchesContainer">
+          <div className="colorSwatches">{colorSwatches}</div>
+        </div>
       </div>
     </div>
   );
