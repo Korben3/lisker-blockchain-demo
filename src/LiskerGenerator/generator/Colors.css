@@ -12,6 +12,11 @@
 .colorSwatches {
   display: inline-flex;
   align-items: center;
+  padding: 5px;
+}
+.colorSwatchesContainer {
+  display: inline-flex;
+  align-items: center;
   width: 400px;
   overflow-x: scroll;
   padding: 5px;
